@@ -6,9 +6,9 @@ class Item{
     }
 }
 
-const luffy = new Item("Muñeco de Luffy", 200, "imagenes/cartelluffy.webp");
-const zoro = new Item("Muñeco de Zoro", 150, "imagenes/cartelzoro.webp");
-const sanji = new Item("Muñeco de Sanji", 100, "imagenes/cartelsanji.webp");
+const luffy = new Item("Muñeco de Luffy", 200, "cartelluffy.webp");
+const zoro = new Item("Muñeco de Zoro", 150, "cartelzoro.webp");
+const sanji = new Item("Muñeco de Sanji", 100, "cartelsanji.webp");
 
 const inventario = [];
 
@@ -42,5 +42,5 @@ function actualizarhtml(){
         `;
         elinventario.innerHTML += li;
 }
-eldinero.innerText = dinero;
+
 }
