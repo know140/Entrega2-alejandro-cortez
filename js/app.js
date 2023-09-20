@@ -31,16 +31,16 @@ if (dinero - item.precio >= 0){
 }
 }
 
-function actualizarhtml(){
-    eldinero.innerText = dinero;
+function actualizarhtml() {
+   
    elinventario.innerHTML="";
     for (const item of inventario) {
-        const li= `
+        const li = `
         <li>
-        <img src="img/${item.imagen}" alt="${item.imagen}"/>
+         <img src="imagenes/${item.imagen}" alt="${item.imagen}"/>
         </li>
         `;
         elinventario.innerHTML += li;
 }
-
+eldinero.innerText = dinero;
 }
