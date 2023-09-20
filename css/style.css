@@ -1,0 +1,51 @@
+body {
+  /*background-image: url('../imagenes/popo.jpg');*/
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+  text-align: center;
+  padding-right: 0%;
+  padding-left: 0%;
+  
+}
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 30px;
+}
+h2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+section li{ 
+ background-color: rgb(0, 0, 0);
+ border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    list-style: none; 
+    font-size: 20px;
+    color: white;
+}
+section ul { 
+  justify-content: center;
+  display: flex;
+  max-width: 100%;
+  
+}
+section img{
+  
+    cursor: pointer;
+    width: 180px;
+    
+  }
+
+
+  
+
+ 
