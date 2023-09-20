@@ -31,12 +31,27 @@ if (dinero - item.precio >= 0){
 }
 }
 
+
+function vender(nombreDelItem){
+
+const itemEncontrado = inventario.find((item)=>item.nombre == nombreDelItem);
+if (itemEncontrado){
+    dinero += itemEncontrado.precio;
+    const indice = inventario.indexOf(itemEncontrado);
+    inventario.splice(indice, 1);
+    actualizarhtml();
+}
+
+}
+
+
+
 function actualizarhtml() {
    
    elinventario.innerHTML="";
     for (const item of inventario) {
         const li = `
-        <li>
+        <li onclick= "vender('${item.nombre}')">
          <img src="imagenes/${item.imagen}" alt="${item.imagen}"/>
         </li>
         `;
