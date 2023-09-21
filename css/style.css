@@ -1,35 +1,32 @@
-body {
-  /*background-image: url('../imagenes/popo.jpg');*/
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.log{
+  width: 25%;  
+}
+
 section{
   text-align: center;
   padding-right: 0%;
   padding-left: 0%;
-  
 }
-h1{
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: 30px;
-}
+
 h2{
-  background-color: black;
-  color: white;
+  font-size: 20px;
+  padding-bottom: 2%;
+  color: rgb(0, 0, 0);
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  
 }
+
 section li{ 
  background-color: rgb(0, 0, 0);
- border: 1px solid rgb(0, 0, 0);
-    cursor: pointer;
+ cursor: pointer;
     list-style: none; 
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 section ul { 
@@ -40,11 +37,11 @@ section ul {
 }
 section img{
     cursor: pointer;
-    width: 150px;
+    width: 100px;
     
   }
 
 .inveimg img{
-  width: 85px;
+  width: 50px;
 }
  
